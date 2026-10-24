@@ -42,6 +42,7 @@ Scripting     Python, Bash
 | [log-analyzer](https://github.com/Siddique-12300983/log-analyzer) | Python tool that flags brute-force and Kerberoasting in auth logs |
 | [sigma-detection-rules](https://github.com/Siddique-12300983/sigma-detection-rules) | Sigma rules mapped to MITRE ATT&CK |
 | [linux-hardening-script](https://github.com/Siddique-12300983/linux-hardening-script) | Idempotent Debian/Ubuntu hardening script |
+| [password-breach-checker](https://github.com/Siddique-12300983/password-breach-checker) | Python CLI that checks a password against HIBP using k-anonymity |
 
 ### Links
 
