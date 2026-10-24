@@ -36,13 +36,28 @@ Scripting     Python, Bash
 
 ### Projects
 
+**Security**
+
 | Repo | What it is |
 |---|---|
 | [purple-team-journey](https://github.com/Siddique-12300983/purple-team-journey) | My AD lab, attack-and-detect write-ups and weekly notes |
-| [log-analyzer](https://github.com/Siddique-12300983/log-analyzer) | Python tool that flags brute-force and Kerberoasting in auth logs |
-| [sigma-detection-rules](https://github.com/Siddique-12300983/sigma-detection-rules) | Sigma rules mapped to MITRE ATT&CK |
+| [log-analyzer](https://github.com/Siddique-12300983/log-analyzer) | Flags brute-force and Kerberoasting in auth logs |
+| [sigma-detection-rules](https://github.com/Siddique-12300983/sigma-detection-rules) | Sigma detection rules mapped to MITRE ATT&CK |
 | [linux-hardening-script](https://github.com/Siddique-12300983/linux-hardening-script) | Idempotent Debian/Ubuntu hardening script |
-| [password-breach-checker](https://github.com/Siddique-12300983/password-breach-checker) | Python CLI that checks a password against HIBP using k-anonymity |
+| [ioc-extractor](https://github.com/Siddique-12300983/ioc-extractor) | Pulls IOCs from text, handles defanged input |
+| [file-integrity-monitor](https://github.com/Siddique-12300983/file-integrity-monitor) | SHA-256 baseline and change detection for a directory |
+| [phishing-email-analyzer](https://github.com/Siddique-12300983/phishing-email-analyzer) | Offline .eml triage: headers, auth, URLs, red flags |
+| [password-breach-checker](https://github.com/Siddique-12300983/password-breach-checker) | Checks a password against HIBP using k-anonymity |
+
+**For fun**
+
+Small browser things, each a single page you can open and play with:
+
+| Repo | Live | What it is |
+|---|---|---|
+| [password-strength-visualizer](https://github.com/Siddique-12300983/password-strength-visualizer) | [open](https://siddique-12300983.github.io/password-strength-visualizer/) | Live password meter, entropy and crack-time, all in the browser |
+| [network-attack-map](https://github.com/Siddique-12300983/network-attack-map) | [open](https://siddique-12300983.github.io/network-attack-map/) | Animated map of simulated cyber attacks |
+| [typing-speed-game](https://github.com/Siddique-12300983/typing-speed-game) | [open](https://siddique-12300983.github.io/typing-speed-game/) | A clean typing speed test with WPM and a best score |
 
 ### Links
 
