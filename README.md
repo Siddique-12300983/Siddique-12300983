@@ -1,9 +1,9 @@
 ```
 $ whoami
-Md Abu Bakar Siddique  (ruxcipher)
+Md Abu Bakar Siddique  (ruxchipher)
 
 $ cat ./about
-Second-year Bachelor of IT student at CQUniversity.
+Final-year Bachelor of IT student at CQUniversity.
 Cyber Security major, Application Development minor. Based in Sydney.
 Learning both sides of security and building toward a purple team internship.
 ```
@@ -61,6 +61,6 @@ Small browser things, each a single page you can open and play with:
 
 ### Links
 
-- Portfolio: https://siddique-12300983.github.io/ruxchipher-portfolio/
+- Portfolio: https://ruxchipher.com/
 - LinkedIn: https://linkedin.com/in/siddiqueabu
 - GitHub: https://github.com/Siddique-12300983
