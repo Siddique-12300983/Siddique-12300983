@@ -21,6 +21,10 @@ attack is only interesting to me once I can see what it left behind.
   the logs, with Sigma rules on top.
 - The first full attack-and-detect write-up: Kerberoasting, and why a modern
   AES-only domain breaks the classic RC4 detection.
+- Measuring the gaps rather than guessing at them. My own coverage map reads
+  every rule and tool I have written and reports 22 ATT&CK techniques covered
+  and 11 techniques on my target list that I still cannot detect. That gap list
+  is what decides the next rule I write.
 
 It is all in [purple-team-journey](https://github.com/Siddique-12300983/purple-team-journey).
 
@@ -30,7 +34,7 @@ It is all in [purple-team-journey](https://github.com/Siddique-12300983/purple-t
 Linux         Fedora, Arch, systemd, permissions, shell
 Windows / AD  Active Directory, Group Policy, Kerberos, event logs
 Networking    TCP/IP, DNS, firewalls, nmap, Wireshark
-Detection     Sysmon, Wazuh, Sigma, MITRE ATT&CK
+Detection     Sysmon, Wazuh, Sigma, MITRE ATT&CK, ATT&CK Navigator
 Scripting     Python, Bash
 ```
 
@@ -41,6 +45,8 @@ Scripting     Python, Bash
 | Repo | What it is |
 |---|---|
 | [purple-team-journey](https://github.com/Siddique-12300983/purple-team-journey) | My AD lab, attack-and-detect write-ups and weekly notes |
+| [attack-coverage-map](https://github.com/Siddique-12300983/attack-coverage-map) | Reads my rules and tools and reports what they cover, how deep, and where the gaps are. [Live heatmap](https://siddique-12300983.github.io/attack-coverage-map/) |
+| [persistwatch](https://github.com/Siddique-12300983/persistwatch) | Hunts persistence in systemd units and timers, mapped to ATT&CK |
 | [log-analyzer](https://github.com/Siddique-12300983/log-analyzer) | Flags brute-force and Kerberoasting in auth logs |
 | [sigma-detection-rules](https://github.com/Siddique-12300983/sigma-detection-rules) | Sigma detection rules mapped to MITRE ATT&CK |
 | [linux-hardening-script](https://github.com/Siddique-12300983/linux-hardening-script) | Idempotent Debian/Ubuntu hardening script |
