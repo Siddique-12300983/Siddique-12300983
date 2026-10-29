@@ -17,8 +17,9 @@ attack is only interesting to me once I can see what it left behind.
 - An Active Directory home lab on Arch Linux with KVM: a Windows Server 2025
   domain controller, a Windows 11 client and Kali on an isolated network, run as
   a fake company called Harbourline Freight.
-- Detection on that lab: audit policy, Sysmon, and next a Wazuh SIEM collecting
-  the logs, with Sigma rules on top.
+- Detection on that lab: audit policy, Sysmon, and a Wazuh SIEM collecting the
+  logs from both Windows hosts, with my own detection rules firing on the live
+  attacks.
 - The first full attack-and-detect write-up: Kerberoasting, and why a modern
   AES-only domain breaks the classic RC4 detection.
 - Measuring the gaps rather than guessing at them. My own coverage map reads
